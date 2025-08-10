@@ -46,4 +46,4 @@ O site www.marcosvinicio.site é uma plataforma pessoal construída para reunir 
 
 1. Clone o repositório  
    ```bash
-   git clone https://github.com/seu-usuario/marcosvinicio-site.git
+   git clone https://github.com/marcosvinicio10/meu-website.git
