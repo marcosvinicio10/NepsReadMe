@@ -48,7 +48,7 @@ O site **marcosvinicio.site** é uma plataforma pessoal construída para reunir 
 - Seção de projetos com descrição e links.  
 - Blog com artigos técnicos e insights.  
 - Formulário de contato integrado.  
-- Layout responsivo.  
+- Layout responsivo para dispositivos móveis e desktop.  
 
 ---
 
@@ -64,6 +64,72 @@ Antes de começar, você precisa ter instalado em sua máquina:
 
 ## Instalação
 
-1. **Clone o repositório**  
+1. **Clone o repositório**
    ```bash
    git clone https://github.com/marcosvinicio10/meu-website.git
+   ```
+2. **Acesse a pasta do projeto**
+   ```bash
+   cd meu-website
+   ```
+
+---
+
+## Uso
+
+Existem duas formas de visualizar o site localmente:
+
+**1. Abrindo diretamente no navegador**  
+- Navegue até a pasta `src` e abra o arquivo `index.html` no navegador.
+
+**2. Usando um servidor local (opcional, recomendado para testes)**  
+- Com Python 3:
+  ```bash
+  python -m http.server 8000
+  ```
+  Acesse [http://localhost:8000/src](http://localhost:8000/src)
+
+- Com Node.js:
+  ```bash
+  npx serve src
+  ```
+  Acesse [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Estrutura de Pastas
+
+```text
+meu-website/
+├── docs/               # Arquivos de documentação (imagens, GIFs, etc.)
+│   └── images/
+│       └── demo.png
+├── src/                # Código-fonte do site
+│   ├── index.html       # Página principal
+│   ├── css/             # Estilos
+│   │   └── style.css
+│   ├── js/              # Scripts
+│   │   └── main.js
+│   └── assets/          # Imagens e outros arquivos
+│       └── images/
+├── README.md            # Documentação do projeto
+└── LICENSE              # Arquivo de licença
+```
+
+---
+
+## Como Contribuir
+
+1. Faça um fork do projeto  
+2. Crie uma branch para sua feature (`git checkout -b minha-feature`)  
+3. Commit suas alterações (`git commit -m 'Minha nova feature'`)  
+4. Envie para o seu fork (`git push origin minha-feature`)  
+5. Abra um Pull Request  
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
