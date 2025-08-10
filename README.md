@@ -4,12 +4,23 @@ Este é o meu site pessoal, onde apresento meus projetos, portfólio, experiênc
 
 ---
 
+## Demonstração
+
+![Screenshot do site](docs/images/screenshot-home.png)
+
+*Acesse online:* [www.marcosvinicio.site](https://www.marcosvinicio.site)
+
+---
+
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)  
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)  
 - [Funcionalidades](#funcionalidades)  
-- [Como Rodar](#como-rodar)  
+- [Pré-requisitos](#pré-requisitos)  
+- [Instalação](#instalação)  
+- [Uso](#uso)  
+- [Estrutura de Pastas](#estrutura-de-pastas)  
 - [Como Contribuir](#como-contribuir)  
 - [Licença](#licença)  
 - [Contato](#contato)  
@@ -18,17 +29,16 @@ Este é o meu site pessoal, onde apresento meus projetos, portfólio, experiênc
 
 ## Sobre o Projeto
 
-O site www.marcosvinicio.site é uma plataforma pessoal construída para reunir meu portfólio, blog e informações profissionais em um único lugar. Ele visa facilitar o contato com recrutadores, parceiros e clientes, além de mostrar minhas habilidades técnicas e projetos recentes.
+O site **marcosvinicio.site** é uma plataforma pessoal construída para reunir meu portfólio, blog e informações profissionais em um único lugar. Ele visa facilitar o contato com recrutadores, parceiros e clientes, além de mostrar minhas habilidades técnicas e projetos recentes.
 
 ---
 
 ## Tecnologias Utilizadas
 
-
-- **Vercel** — Plataforma de hospedagem para sites.
-- **HTML** — Linguagem de marcação.
-- **CSS** — Estilização.
-- **JavaScript** — Funcionalidades mais avançadas.  
+- **HTML5** — Estrutura das páginas.  
+- **CSS3** — Estilização e responsividade.  
+- **JavaScript (Vanilla)** — Funcionalidades dinâmicas.  
+- **Vercel** — Hospedagem e deploy.  
 
 ---
 
@@ -38,12 +48,22 @@ O site www.marcosvinicio.site é uma plataforma pessoal construída para reunir 
 - Seção de projetos com descrição e links.  
 - Blog com artigos técnicos e insights.  
 - Formulário de contato integrado.  
-- Design responsivo para dispositivos móveis e desktop.  
+- Layout responsivo.  
 
 ---
 
-## Como Rodar
+## Pré-requisitos
 
-1. Clone o repositório  
+Antes de começar, você precisa ter instalado em sua máquina:
+
+- **Git** ([download aqui](https://git-scm.com/downloads))  
+- Um navegador moderno (Chrome, Firefox, Edge...)  
+- (Opcional) Um editor de código como [VS Code](https://code.visualstudio.com/)  
+
+---
+
+## Instalação
+
+1. **Clone o repositório**  
    ```bash
    git clone https://github.com/marcosvinicio10/meu-website.git
