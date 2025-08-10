@@ -6,7 +6,7 @@ Este é o meu site pessoal, onde apresento meus projetos, portfólio, experiênc
 
 ## Demonstração
 
-![Screenshot do site](docs/images/screenshot-home.png)
+![Screenshot do site](docs/images/demo.png)
 
 *Acesse online:* [www.marcosvinicio.site](https://www.marcosvinicio.site)
 
